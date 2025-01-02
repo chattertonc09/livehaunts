@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "haunt"
+version = "0.1.0"
+description = "Web application for www.LiveHaunts.com"
+authors = ["Carl Chatterton"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+reflex = "^0.6.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
