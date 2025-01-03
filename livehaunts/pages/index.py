@@ -40,7 +40,7 @@ def layout() -> rx.Component:
 
 
 @template
-def index():
+def index() -> rx.Component:
     return rx.vstack(
         layout(),
         width="100%",
