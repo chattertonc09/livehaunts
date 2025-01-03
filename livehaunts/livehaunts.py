@@ -1,7 +1,6 @@
 import reflex as rx
 
-from .pages.about import about
-from .pages.index import index
+from livehaunts.pages import about, index
 
 app = rx.App(
     theme=rx.theme(

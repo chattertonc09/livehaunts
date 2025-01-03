@@ -1,5 +1,6 @@
-from livehaunts.pages import index
+from typing import List
 
-__all__ = [
-    "index",
-]
+from livehaunts.pages.about import about
+from livehaunts.pages.index import index
+
+__all__: List[str] = ["index", "about"]
