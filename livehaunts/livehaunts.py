@@ -13,5 +13,5 @@ app = rx.App(
         "https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap",
     ],
 )
-app.add_page(index, route="/")
-app.add_page(about, route="/about")
+app.add_page(component=index, route="/")
+app.add_page(component=about, route="/about")
