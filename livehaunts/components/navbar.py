@@ -14,7 +14,7 @@ def navbar_mobile():
         rx.hstack(
             rx.hstack(
                 rx.image(
-                    src="/logo.png",
+                    src="/images/logos/default.png",
                     width="2em",
                     height="auto",
                     border_radius="25%",
@@ -49,7 +49,7 @@ def navbar_desktop():
             rx.hstack(
                 rx.hstack(
                     rx.image(
-                        src="\logo.png",
+                        src="/images/logos/default.png",
                         width="8em",
                         height="auto",
                         top="4px",
@@ -101,7 +101,7 @@ def navbar() -> rx.Component:
         navbar_desktop(),
         navbar_mobile(),
         padding="1em",
-        position="absolute",
+        # position="absolute",
         top="0px",
         width="100%",
         background_color=rx.color_mode_cond(
