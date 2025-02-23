@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "haunt"
+name = "livehaunts"
 version = "0.1.0"
 description = "Web application for www.LiveHaunts.com"
 authors = ["Carl Chatterton"]
