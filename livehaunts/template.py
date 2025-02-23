@@ -10,7 +10,6 @@ def template(page: Callable[[], rx.Component]) -> rx.Component:
         rx.vstack(
             navbar(),
             page(),
-            rx.spacer(),
             footer(),
             width="100%",
             height="100vh",
