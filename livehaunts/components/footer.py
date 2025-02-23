@@ -18,7 +18,7 @@ def contact_items() -> rx.Component:
     return rx.vstack(
         rx.heading("CONTACT", size="3", weight="bold", as_="h3"),
         footer_item("Investigation Requests", "/investigate"),
-        footer_item("Training & Workshops", "/training"),
+        # footer_item("Training & Workshops", "/training"),
         footer_item("Paranormal Research", "/research"),
         footer_item("Press Requests", "/press"),
         spacing="2",
@@ -94,7 +94,7 @@ def footer() -> rx.Component:
             rx.hstack(
                 rx.hstack(
                     rx.text(
-                        "© 2024 Maellin, Inc",
+                        "© 2025 Maellin, Inc",
                         size="2",
                         white_space="nowrap",
                         weight="medium",
