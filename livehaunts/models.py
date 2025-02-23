@@ -14,4 +14,18 @@ class User(rx.Model, table=True):
     avatar_url: str
     last_login: datetime
     created_on: datetime
+    created_by: str
     updated_on: datetime
+    updated_by: str
+
+
+class Episode(rx.Model, table=True):
+    title: str
+    url: str
+    thumbnail: str
+    tags: str
+    is_featured: bool
+    created_on: datetime
+    created_by: str
+    updated_on: datetime
+    updated_by: str
